@@ -1,0 +1,11 @@
+
+version: '3.4'
+
+services:
+  pingpongbot:
+    image: pingpongbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ~/.vsdbg:/remote_debugger:rw

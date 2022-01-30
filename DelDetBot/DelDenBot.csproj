@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="alexanderbot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Chatroom Client Backend">
+      <HintPath>..\..\Chatrum-Netværksklient\ChatroomBot\bin\Debug\netcoreapp3.1\Chatroom Client Backend.dll</HintPath>
+    </Reference>
+    <Reference Include="ChatroomBot">
+      <HintPath>..\..\Chatrum-Netværksklient\ChatroomBot\bin\Debug\netcoreapp3.1\ChatroomBot.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Token.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
