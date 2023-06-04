@@ -1,0 +1,3 @@
+[submodule "Chatroom-NetworkClient"]
+	path = Chatroom-NetworkClient
+	url = https://github.com/PayThePro/Chatroom-NetworkClient

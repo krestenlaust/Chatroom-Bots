@@ -6,11 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-  <Reference Include="ChatroomBot.dll">
-    <HintPath>ChatroomBot.dll</HintPath>
-    <SpecificVersion>False</SpecificVersion> 
-    <!-- You may set it to true if your dll has a specific version -->
-  </Reference>
-</ItemGroup>
+    <ProjectReference Include="..\Chatroom-NetworkClient\Chatroom.NetworkClient.Bot\Chatroom.NetworkClient.Bot.csproj" />
+  </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 ﻿using System.Threading;
-using ChatroomBot;
+using Chatroom.NetworkClient.Bot;
 
 namespace PingPongBot
 {
@@ -7,7 +7,7 @@ namespace PingPongBot
     {
         static void Main(string[] args)
         {
-            PingPongBot bot = new PingPongBot("127.0.0.1", 25565);
+            PingPongBot bot = new PingPongBot("192.168.1.10", 25565);
 
             while (true)
             {

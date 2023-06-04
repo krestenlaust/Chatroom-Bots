@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,12 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Chatroom Client Backend">
-      <HintPath>..\..\Chatrum-Netværksklient\ChatroomBot\bin\Debug\netcoreapp3.1\Chatroom Client Backend.dll</HintPath>
-    </Reference>
-    <Reference Include="ChatroomBot">
-      <HintPath>..\..\Chatrum-Netværksklient\ChatroomBot\bin\Debug\netcoreapp3.1\ChatroomBot.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Chatroom-NetworkClient\Chatroom.NetworkClient.Bot\Chatroom.NetworkClient.Bot.csproj" />
   </ItemGroup>
 
   <ItemGroup>

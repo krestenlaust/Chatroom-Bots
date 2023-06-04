@@ -6,16 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Chatroom-NetworkClient\Chatroom.NetworkClient.Bot\Chatroom.NetworkClient.Bot.csproj" />
-    <ProjectReference Include="..\Chatroom-NetworkClient\Chatroom.NetworkClient\Chatroom.NetworkClient.csproj" />
-    <ProjectReference Include="..\Chatroom.NetworkClient.Bot\Chatroom.NetworkClient.Bot.csproj" />
   </ItemGroup>
 
 </Project>

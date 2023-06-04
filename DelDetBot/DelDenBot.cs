@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using ChatroomBot;
+using Chatroom.NetworkClient.Bot;
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
